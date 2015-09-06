@@ -1,0 +1,14 @@
+{
+    "name": "xiaobudongzhang/lavarel-sms",
+    "description": "lavarel sms api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaobudongzhang",
+            "email": "18949424439@163.com"
+        }
+    ],
+    "require": {
+    	"xiaobudongzhang/sms": "dev-master"
+    }
+}

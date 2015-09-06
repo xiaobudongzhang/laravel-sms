@@ -8,7 +8,7 @@
             "email": "18949424439@163.com"
         }
     ],
-    "require": {
+    "require": { 
     	"xiaobudongzhang/sms": "dev-master"
     }
 }

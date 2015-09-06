@@ -3,7 +3,7 @@ namespace LaravelSms;
 
 use Illuminate\Support\ServiceProvider;
 use Sms\Ihuyi\Base;
-class IhuyiServiceProvider extends ServiceProvider
+class AlipayServiceProvider extends ServiceProvider
 {
 
     /**

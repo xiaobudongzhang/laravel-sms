@@ -2,7 +2,7 @@
 namespace LaravelSms;
 
 use Illuminate\Support\ServiceProvider;
-use Sms\Ihuyi\Base; 
+use Sms\Ihuyi\Base;   //r
 class IhuyiServiceProvider extends ServiceProvider
 {
 

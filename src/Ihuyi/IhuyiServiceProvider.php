@@ -1,8 +1,8 @@
 <?php
-namespace LaravelSms;
+namespace Ihuyi;
 
 use Illuminate\Support\ServiceProvider;
-use Sms\Ihuyi\Base;   //r
+use Byz\Sms\Ihuyi\Base;   //r
 class IhuyiServiceProvider extends ServiceProvider
 {
 

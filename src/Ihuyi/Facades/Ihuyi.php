@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Facades;
+namespace Ihuyi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

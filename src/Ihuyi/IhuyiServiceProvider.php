@@ -11,7 +11,7 @@ class IhuyiServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes('Config/config.php' => config_path('sms.php'));
+        $this->publishes(['Config/config.php' => config_path('sms.php')]);
     }
 
     /**

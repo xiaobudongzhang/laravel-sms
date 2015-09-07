@@ -11,7 +11,7 @@ class IhuyiServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes(['Config/config.php' => config_path('sms.php')]);
+        $this->publishes([__DIR__.'Config/config.php' => config_path('sms.php')]);
     }
 
     /**
@@ -21,7 +21,7 @@ class IhuyiServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom('Config/config.php', 'sms');
+        $this->mergeConfigFrom(__DIR__.'Config/config.php', 'sms');
 
         $this->app->bind('Ihuyi', function ($app) {
             $Ihuyi = new Base(

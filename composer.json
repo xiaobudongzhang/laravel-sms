@@ -13,6 +13,6 @@
     	"xiaobudongzhang/sms": "dev-master"
     },
     "autoload": {
-        "psr-4": { "Byz\\LaravelSms\\": "Src/" }
+        "psr-4": { "Byz\\LaravelSms\\": "src/" }
     }
 }

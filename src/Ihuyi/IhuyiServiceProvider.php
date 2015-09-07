@@ -28,7 +28,7 @@ class IhuyiServiceProvider extends ServiceProvider
             	config('sms.ihuyi.host'),
             	config('sms.ihuyi.method'),
             	config('sms.ihuyi.user_name'),
-            	config('sms.ihuyi.user_name'),
+            	config('sms.ihuyi.user_name')
             	);
             return $Ihuyi;
         }

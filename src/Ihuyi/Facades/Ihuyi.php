@@ -1,6 +1,6 @@
 <?php
 
-namespace Ihuyi\Facades;
+namespace Byz\LaravelSms\Ihuyi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

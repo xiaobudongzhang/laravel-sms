@@ -1,5 +1,5 @@
 <?php
-namespace Ihuyi;
+namespace Byz\LaravelSms\Ihuyi;
 
 use Illuminate\Support\ServiceProvider;
 use Byz\Sms\Ihuyi\Base;   //r
